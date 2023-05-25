@@ -49,7 +49,7 @@ const Footer = () => {
 
       <div className="contact">
         <h2>TELE ATENDIMENTO</h2>
-        <p>85 3048.5850 - 85 3048.5802
+        <p>85 3048.5850 - 85 3048.5802<br/>
         85 3048.5801 - 85 3048.5803
         </p>
       </div>   
@@ -72,7 +72,7 @@ const Footer = () => {
       </section>
 
       <section className='copyright'>
-          <Image src='/icons/Line 1.svg' className="line" alt='imagem de uma linha horizontal' width={1000} height={100} />
+          <Image src='/icons/Line 1.svg' className="line" alt='imagem de uma linha horizontal' width={500} height={100} />
          <p>© 2022 MULTICLINICA FORTALEZA LTDA. CNPJ 01.373.946/0001-66. TODOS OS DIREITOS RESERVADOS.</p>
         </section>
 
