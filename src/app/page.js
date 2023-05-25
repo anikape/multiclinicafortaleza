@@ -4,6 +4,7 @@ import Informations from "../../components/Informations/Informations";
 
 
 
+
 export default function Home() {
   return (
     <>

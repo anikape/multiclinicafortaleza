@@ -1,44 +1,80 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.home__container{
+.home__container {
   display: flex;
 }
 
-.logo{
+.logo {
   width: 407px;
-height: 106px;
-left: 629px;
-top: 528px;
-position: absolute;
-justify-content: center;
-align-items: center;
-display: flex;
-
-}
-
-.text{
+  height: 106px;
   position: absolute;
-width: 692px;
-height: 129px;
-left: 529px;
-top: 685px;
-
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.text p{
+.text {
+  position: absolute;
+  width: 100%;
+  max-width: 692px;
+  height: auto;
+  left: 50%;
+  top: 685px;
+  transform: translateX(-50%);
+}
+
+.text p {
   font-weight: 400;
-font-size: 30px;
-line-height: 38px;
-text-align: center;
-
-color: rgba(42, 99, 107, 0.85);
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: rgba(42, 99, 107, 0.85);
 }
 
-.cards{
- margin-top: 600px;
- 
+.cards {
+  margin-top: 600px;
+}
+
+/* Estilos responsivos */
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text {
+    top: 400px;
+  }
+
+  .text p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    top: 200px;
+  }
+
+  .text {
+    top: 400px;
+  }
+
+  .text p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .cards {
+    margin-top: 300px;
+  }
 }
