@@ -7,6 +7,7 @@ export default function Home() {
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt earum, quis expedita eaque quae similique tempora nobis maxime nihil, praesentium cumque. Nemo quis magnam fugit rem molestiae, quos veritatis mollitia!</p>
     <h2>testeeeee</h2>
     <p>agora vai</p>
+    <p>ultimo teste</p>
     </>
     
   )
