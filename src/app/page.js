@@ -1,7 +1,16 @@
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Informations from "../../components/Informations/Informations";
+
+
+
 export default function Home() {
   return (
     <>
-      <h1>Ana Santos</h1>
+      <Header />
+      <Informations />
+      <Footer />
+
     </>
   );
 }

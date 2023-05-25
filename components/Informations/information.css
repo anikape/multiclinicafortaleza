@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home__container{
+  display: flex;
+}
+
+.logo{
+  width: 407px;
+height: 106px;
+left: 629px;
+top: 528px;
+position: absolute;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+.text{
+  position: absolute;
+width: 692px;
+height: 129px;
+left: 529px;
+top: 685px;
+
+}
+
+.text p{
+  font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+
+color: rgba(42, 99, 107, 0.85);
+}
+
+.cards{
+ margin-top: 600px;
+ 
+}

@@ -35,3 +35,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 [![Vercel Deployment](https://vercelbadge.vercel.app/api/anikape/multiclinicafortaleza)](https://vercel.com/anikape/multiclinicafortaleza)
 
+Bibliotecas
+
+CoreUI - npm install @coreui/react

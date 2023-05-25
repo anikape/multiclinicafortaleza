@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 440px;
+  background-image: url('../../public/bgHeader.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25))
+}
+
+.nav-container{
+  padding-top: 30px;
+
+}
