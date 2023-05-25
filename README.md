@@ -33,7 +33,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[![Vercel Deployment](https://vercelbadge.vercel.app/api/anikape/multiclinicafortaleza)](https://vercel.com/anikape/multiclinicafortaleza)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c7ed9e43-0887-463a-bdf5-e96eaa11cee6/deploy-status)](https://app.netlify.com/sites/quiet-tiramisu-8c85f2/deploys)
 
 Bibliotecas
 
