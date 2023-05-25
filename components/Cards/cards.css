@@ -1,57 +1,96 @@
-.card__container{
+.card__container {
   display: flex;
   justify-content: space-around;
 }
 
-.card__content{
-width: 371px;
-height: 859px;
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
+.card__content {
+  width: 371px;
+  height: 859px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }
 
-.image{
-display: flex;
-width: 379px;
-height: 380px;
-filter: drop-shadow(12px 12px 20px rgba(0, 0, 0, 0.25));
-border-radius: 20px 20px 0px 0px;
-align-items: center;
-justify-content: center;
-}
-
-.nome{
-font-weight: 400;
-font-size: 25px;
-line-height: 31px;
-text-align: center;
-color: #2A636B;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-.texto{
-font-family: 'Mukta', sans-serif;
-font-weight: 300;
-font-size: 22px;
-line-height: 37px;
-text-align: center;
-color: #2A636B;
-padding-top: 2rem;
-}
-
-
-.button{
-  display:flex;
+.image {
+  display: flex;
+  width: 379px;
+  height: 380px;
+  filter: drop-shadow(12px 12px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 20px 20px 0px 0px;
   align-items: center;
-justify-content:center;
-width: 273px;
-height: 53px;
-left: 103px;
-top: 2113px;
-background: rgba(178, 197, 198, 0.5);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(0, 0, 0, 0.25);
-border-radius: 29px;
-margin: 2rem auto;
+  justify-content: center;
+}
+
+.nome {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+  color: #2A636B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 37px;
+  text-align: center;
+  color: #2A636B;
+  padding-top: 2rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 273px;
+  height: 53px;
+  background: rgba(178, 197, 198, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  margin: 2rem auto;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+  .card__container {
+    flex-wrap: wrap;
+  }
+
+  .card__content {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 480px) {
+  .card__content {
+    padding: 1rem;
+  }
+  
+  .nome {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .texto {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 300px;
+  }
 }
