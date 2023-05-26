@@ -33,12 +33,12 @@ const Footer = () => {
   
   return (
     <>
-    <section className="footer__container">
-      <div>
-        <Image className='logo__footer' src='/logoMaior.png' alt="Logo Multiclinica" width={472} height={107} />
-      </div>
-
+  
     <section className='footer__adress'>
+
+    <Image className='logo__footer' src='/logoMaior.png' alt="Logo Multiclinica" width={472} height={107} />
+
+    <div className="infos">
       <div className="adress">
         <h2>Endereço</h2>
         <p>Rua Guaratinguetá, 60. Parangaba. 
@@ -69,14 +69,12 @@ const Footer = () => {
         </div>       
        
       </div>  
-      </section>
-
-      <section className='copyright'>
-          <Image src='/icons/Line 1.svg' className="line" alt='imagem de uma linha horizontal' width={500} height={100} />
+      </div>
+      <div className='copyright'>
+          <Image src='/icons/Line 1.svg' className="line" alt='imagem de uma linha horizontal' width={1000} height={100} />
          <p>© 2022 MULTICLINICA FORTALEZA LTDA. CNPJ 01.373.946/0001-66. TODOS OS DIREITOS RESERVADOS.</p>
-        </section>
-
-    </section>
+        </div>
+      </section>
     </>
   )
 }

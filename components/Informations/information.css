@@ -11,13 +11,10 @@
 .logo {
   width: 407px;
   height: 106px;
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
+  display: flex;  
   justify-content: center;
   align-items: center;
-  display: flex;
+  margin: 110px auto;
 }
 
 .text {
@@ -62,7 +59,8 @@
 
 @media screen and (max-width: 480px) {
   .logo {
-    top: 200px;
+    margin: 50px auto;
+    width:auto;
   }
 
   .text {
@@ -70,8 +68,10 @@
   }
 
   .text p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
+    padding: .5rem;
+    text-align: justify;
   }
 
   .cards {
