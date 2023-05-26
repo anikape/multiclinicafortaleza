@@ -58,6 +58,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .home__container{
+    width: 100%;
+  }
+
   .logo {
     margin: 50px auto;
     width:auto;
@@ -68,10 +72,10 @@
   }
 
   .text p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
     padding: .5rem;
-    text-align: justify;
+    
   }
 
   .cards {

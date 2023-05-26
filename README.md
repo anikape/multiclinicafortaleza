@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Bibliotecas
 
 CoreUI - npm install @coreui/react
+React-icons -- npm install react-icons --save

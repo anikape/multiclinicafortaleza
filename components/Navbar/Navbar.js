@@ -1,8 +1,8 @@
-"use client";
+'use client';
 import { useState } from 'react';
- import './navbar.css';
+import './navbar.css';
 import Image from 'next/image';
-
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -14,10 +14,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <Image src="/logo.svg" alt="logo da Multiclinica" width={150} height={150} />
+        <Image
+          src="/logo.svg"
+          alt="logo da Multiclinica"
+          width={150}
+          height={150}
+        />
       </div>
       <button className="navbar__toggle" onClick={handleNavToggle}>
-        {isNavOpen ? 'Fechar' : 'Menu'}
+        {isNavOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
       </button>
       <ul className={`navbar__links ${isNavOpen ? 'open' : ''}`}>
         <li className="navbar__item itens">A Clinica</li>
